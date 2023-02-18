@@ -1,0 +1,2 @@
+# django_apnidukan_ecommerce_store
+Ecommerce Store
