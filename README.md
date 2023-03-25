@@ -7,6 +7,13 @@ pip install django
 pip install pillow
 ```
 
+## To Run Dockerfile & Create Image + Execute Container
+```
+docker build tag -t <NAME_OF_IMAGE> .
+docker run -d -p PORT_OF_HOST:PORT_OF_CONTAINER(FOR THIS APPLICATIONS USE 8000) <NAME_OF_IMAGE>
+```
+
+
 ## Store Page
 
 ![STORE_PAGE](https://user-images.githubusercontent.com/108226778/219845681-4245a104-d18b-46c7-a3c2-0d93dd3a40b5.png)
